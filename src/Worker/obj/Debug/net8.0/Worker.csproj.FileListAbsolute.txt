@@ -1,5 +1,0 @@
-/home/isaac/workspace/myapp/src/Worker/obj/Debug/net8.0/Worker.csproj.AssemblyReference.cache
-/home/isaac/workspace/myapp/src/Worker/obj/Debug/net8.0/Worker.GeneratedMSBuildEditorConfig.editorconfig
-/home/isaac/workspace/myapp/src/Worker/obj/Debug/net8.0/Worker.AssemblyInfoInputs.cache
-/home/isaac/workspace/myapp/src/Worker/obj/Debug/net8.0/Worker.AssemblyInfo.cs
-/home/isaac/workspace/myapp/src/Worker/obj/Debug/net8.0/Worker.csproj.CoreCompileInputs.cache
