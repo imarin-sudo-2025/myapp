@@ -45,6 +45,12 @@ app.MapPost("/products", (Product product) =>
     return Results.Created($"/products/{product.Id}", product);
 });
 
+app.MapPost("/products/{name:string}", (string name) =>
+{
+    var product = products.FirstOrDefault(p => p.Name == name);
+    return product is null ? Results.NotFound() : Results.Ok(product);
+});
+
 app.MapPut("/products/{id:int}", (int id, Product updatedProduct) =>
 {
     var index = products.FindIndex(p => p.Id == id);
